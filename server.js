@@ -27,9 +27,9 @@ const { captureRejectionSymbol } = require("events");
 
 var connection = mysql.createConnection(
     {
-        host: "localhost",
-        user: "root",
-        password: "oppo-098",
+        host: "books-database.cifq0t8cyqqu.us-east-1.rds.amazonaws.com",
+        user: "admin",
+        password: "adminroot",
         port: '3306',
         database: "online_book_store"
     }
